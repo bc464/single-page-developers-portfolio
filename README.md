@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2023-04-18 at 17-06-35 Frontend Mentor Single-page developer portfolio](https://user-images.githubusercontent.com/82536545/232821222-c4606dbe-7d0c-49cb-bc25-ca2035792c3e.png)
+](./screenshot.jpg)
 
 ### Links
 
