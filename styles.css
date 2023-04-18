@@ -383,14 +383,17 @@ textarea {
 }
 
 @media only screen and (max-width:1400px) {
+    .hero-img {
+        margin-left: 0px;
+    }
     .circle-img {
-        left: 560px;
+        left: 580px;
     }
     .experience-box {
-        width: 320px;
+        width: 310px;
     }
     .project-box {
-        width: 500px;   
+        width: 490px;   
     }
 }
 
