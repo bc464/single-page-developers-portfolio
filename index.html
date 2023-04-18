@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Single-page developer portfolio</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+<!-- Navigation Section -->
+  <div role="navigation" class="navbar">
+    <h1>adamkeyes</h1>
+    <div class="social-top">
+      <img src="./assets/images/icon-github.svg" alt="github" class="social-icon">
+      <img src="./assets/images/icon-frontend-mentor.svg" alt="frontend mentor" class="social-icon">
+      <img src="./assets/images/icon-linkedin.svg" alt="linkedin" class="social-icon">
+      <img src="./assets/images/icon-twitter.svg" alt="twitter" class="social-icon">
+    </div>
+  </div>
+<!-- Hero Section -->
+  <div role="banner" class="hero-section">
+    <div class="hero-left">  
+      <div class="rings-img-top">
+        <img src="./assets/images/pattern-rings.svg" alt="rings" alt="rings image" class="img-rings-top"> 
+      </div> 
+      <div class="circle-img">
+        <img src="./assets/images/pattern-circle.svg" alt="pattern circle" class="img-circle">
+      </div>
+      <h2>Nice to meet you! I'm <span>Adam Keyes</span>.</h2>
+      <p>Based in the UK, I'm a front-end developer passionate about 
+        building accessible web apps that users love.</p>
+      <div class="btn-border">
+        <button class="btn btn-hero">Contact me</button>
+        <div class="btn-bottom__color"></div>
+      </div>
+    </div>
+      <div class="hero-right">       
+        <div class="hero-img">
+          <picture>
+            <source media="(min-width: 1000px)" srcset="./assets/images/image-profile-desktop.webp">
+            <source media="(min-width: 425px)" srcset="./assets/images/image-profile-tablet.webp">
+            <img src="./assets/images/image-profile-mobile.webp" alt="image-adam" class="img-adam">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Main Section -->
+  <div role="main" class="main-section">
+    <!-- Experience Section -->
+    <div class="experience-section">
+      <div class="experience-box">
+        <h3>HTML</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="experience-box">
+        <h3>CSS</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="experience-box">
+        <h3>JavaScript</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="experience-box">
+        <h3>Accessibility</h3>
+        <p>4 Years Experience</p>
+      </div>
+      <div class="experience-box">
+        <h3>React</h3>
+        <p>3 Years Experience</p>
+      </div>
+      <div class="experience-box">
+        <h3>Sass</h3>
+        <p>Years Experience</p>
+      </div>
+      <div class="rings-img-main">
+        <img src="./assets/images/pattern-rings.svg" alt="rings" alt="rings image" class="img-rings-main"> 
+      </div> 
+    </div>
+<!-- Project Section -->
+    <div class="project-section">
+      <div class="project-heading">
+        <h4>Projects</h4>
+        <div class="btn-border__project">
+          <button class="btn">Contact me</button>
+          <div class="btn-bottom__color"></div>
+        </div>
+      </div>
+      <div class="project-boxes">
+        <div class="project-box">
+          <picture>
+            <source media="(max-width:1000px)" srcset="./assets/images/thumbnail-project-1-large.webp">
+            <img src="./assets/images/thumbnail-project-1-small.webp" alt="project one" class="project-img">
+          </picture>
+          <div class="profile-view__img">
+            <div class="profile-link__top">
+              <button class="btn btn-link">View Profile</button>
+              <div class="btn-bottom__color"></div>
+            </div>
+            <div class="profile-link__bottom">
+              <button href="#" class="btn btn-link">View Code</button>
+              <div class="btn-bottom__color"></div>
+            </div>  
+          </div>
+          <div class="project-info">
+            <h5>Design Portfolio</h5>
+            <div class="project-language">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+            <div class="profile-view__links">
+              <div class="link_profile">
+                <button class="btn profile-link">View Profile</button>
+                <div class="btn-bottom__color"></div>
+              </div>
+              <div class="link_code">
+                <button href="#" class="btn profile-link">View Code</button>
+                <div class="btn-bottom__color"></div>
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="project-box">
+          <picture>
+            <source media="(max-width:1000px)" srcset="./assets/images/thumbnail-project-2-large.webp">
+            <img src="./assets/images/thumbnail-project-2-small.webp" alt="project one" class="project-img">
+          </picture>
+          <div class="profile-view__img">
+            <div class="profile-link__top">
+              <button class="btn btn-link">View Profile</button>
+            </div>
+            <div class="profile-link__bottom">
+              <button href="#" class="btn btn-link">View Code</button>
+            </div>  
+          </div>
+          <div class="project-info">
+            <h5>E-Learning Landing Page</h5>
+            <div class="project-language">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+            <div class="profile-view__links">
+              <div class="link_profile">
+                <button class="btn profile-link">View Profile</button>
+                <div class="btn-bottom__color"></div>
+              </div>
+              <div class="link_code">
+                <button href="#" class="btn profile-link">View Code</button>
+                <div class="btn-bottom__color"></div>
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="project-box">
+          <picture>
+            <source media="(max-width:1000px)" srcset="./assets/images/thumbnail-project-3-large.webp">
+            <img src="./assets/images/thumbnail-project-3-small.webp" alt="project one" class="project-img">
+          </picture>
+          <div class="profile-view__img">
+            <div class="profile-link__top">
+              <button class="btn btn-link">View Profile</button>
+            </div>
+            <div class="profile-link__bottom">
+              <button href="#" class="btn btn-link">View Code</button>
+            </div>  
+          </div>
+          <div class="project-info">
+            <h5>Todo Web App</h5>
+            <div class="project-language">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+            <div class="profile-view__links">
+              <div class="link_profile">
+                <button class="btn profile-link">View Profile</button>
+                <div class="btn-bottom__color"></div>
+              </div>
+              <div class="link_code">
+                <button href="#" class="btn profile-link">View Code</button>
+                <div class="btn-bottom__color"></div>
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="project-box">
+          <picture>
+            <source media="(max-width:1000px)" srcset="./assets/images/thumbnail-project-4-large.webp">
+            <img src="./assets/images/thumbnail-project-4-small.webp" alt="project one" class="project-img">
+          </picture>
+          <div class="profile-view__img">
+            <div class="profile-link__top">
+              <button class="btn btn-link">View Profile</button>
+            </div>
+            <div class="profile-link__bottom">
+              <button href="#" class="btn btn-link">View Code</button>
+            </div>  
+          </div>
+          <div class="project-info">
+            <h5>Enetertainment Web App</h5>
+            <div class="project-language">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+            <div class="profile-view__links">
+              <div class="link_profile">
+                <button class="btn profile-link">View Profile</button>
+                <div class="btn-bottom__color"></div>
+              </div>
+              <div class="link_code">
+                <button href="#" class="btn profile-link">View Code</button>
+                <div class="btn-bottom__color"></div>
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="project-box">
+          <picture>
+            <source media="(max-width:1000px)" srcset="./assets/images/thumbnail-project-5-large.webp">
+            <img src="./assets/images/thumbnail-project-5-small.webp" alt="project one" class="project-img">
+          </picture>
+          <div class="profile-view__img">
+            <div class="profile-link__top">
+              <button class="btn btn-link">View Profile</button>
+            </div>
+            <div class="profile-link__bottom">
+              <button href="#" class="btn btn-link">View Code</button>
+            </div>  
+          </div>
+          <div class="project-info">
+            <h5>MEMORY GAME</h5>
+            <div class="project-language">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+            <div class="profile-view__links">
+              <div class="link_profile">
+                <button class="btn profile-link">View Profile</button>
+                <div class="btn-bottom__color"></div>
+              </div>
+              <div class="link_code">
+                <button href="#" class="btn profile-link">View Code</button>
+                <div class="btn-bottom__color"></div>
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="project-box">
+          <picture>
+            <source media="(max-width:1000px)" srcset="./assets/images/thumbnail-project-6-large.webp">
+            <img src="./assets/images/thumbnail-project-6-small.webp" alt="project one" class="project-img">
+          </picture>
+          <div class="profile-view__img">
+            <div class="profile-link__top">
+              <button class="btn btn-link">View Profile</button>
+            </div>
+            <div class="profile-link__bottom">
+              <button href="#" class="btn btn-link">View Code</button>
+            </div>  
+          </div>
+          <div class="project-info">
+            <h5>ART GAMMERY SHOWCASE</h5>
+            <div class="project-language">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JAVASCRIPT</p>
+            </div>
+            <div class="profile-view__links">
+              <div class="link_profile">
+                <button class="btn profile-link">View Profile</button>
+                <div class="btn-bottom__color"></div>
+              </div>
+              <div class="link_code">
+                <button href="#" class="btn profile-link">View Code</button>
+                <div class="btn-bottom__color"></div>
+              </div>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+  <div role="contentinfo" class="footer">
+<!-- Contact Section -->
+    <div class="contact-section">
+      <div class="contact-left">
+        <h6>Contact</h6>
+        <p>I would love to hear about your project and how I could help. Please 
+          fill in the form, and I’ll get back to you as soon as possible.</p>  
+          <div class="rings-img-bottom">
+            <img src="./assets/images/pattern-rings.svg" alt="rings" alt="rings image" class="img-rings-bottom"> 
+          </div> 
+      </div>
+      <div class="contact-right">
+        <form action="https://formsubmit.co/2e6ae9a1a119f38c03b8e485c1067ee1" method="POST">
+          <input class="input-name" type="text" name="name" placeholder="NAME" required>
+          <br>
+          <div class="border-line__name"></div>
+          <div class="email-info">
+            <input class="input-email" type="email" name="email" placeholder="EMAIL" required>
+          <div class="error-icon">
+            <div class="icon-exclamation">!</div> 
+          </div>
+          </div>  
+          <br>
+          <div class="border-line__email"></div>
+          <div class="error-msg">
+            <p>Sorry, invalid format here</p>
+          </div>
+          <textarea class="input-text" cols="10" name="message" placeholder="MESSAGE"></textarea><br>
+          <div class="border-line__message"></div>
+          <div class="sent-btn">
+            <button class="btn btn-sent__form">Send message</button>
+          <div class="btn-bottom__color"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+<!-- footer-section -->
+    <div class="footer-section">
+      <div class="border-line__footer"></div>
+      <div class="footer-info">
+        <h6>adamkeyes</h6>
+        <div class="social-bottom">
+          <img src="./assets/images/icon-github.svg" alt="github" class="social-icon">
+          <img src="./assets/images/icon-frontend-mentor.svg" alt="frontend mentor" class="social-icon">
+          <img src="./assets/images/icon-linkedin.svg" alt="linkedin" class="social-icon">
+          <img src="./assets/images/icon-twitter.svg" alt="twitter" class="social-icon">
+        </div>
+      </div>      
+    </div>
+  </div>
+</body>
+</html>
